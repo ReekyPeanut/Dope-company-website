@@ -1,0 +1,85 @@
+body {
+    background-color: wheat;
+    padding: 0;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+ul {
+    white-space: false;
+    padding:0;
+    margin:0;
+}
+
+li{
+    padding: 16px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+.navlinks {
+    background-color: darkred;
+    color:white;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+p {
+    color: darkred;
+}
+
+div {
+    color:darkred;
+}
+
+li:hover {
+    color: black;
+}
+
+.imagebanner {
+    background-image: url("images/coolbanner.gif");
+    padding: 50px 0;
+    background-size: cover;
+    color: rgb(136, 74, 166);
+}
+
+h2 {
+    text-align: center;
+    color: rgb(136, 74, 166);
+}
+
+.introduction {
+    text-align: center;
+    color: red;
+    font-size: 1.4rem;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.ourgames {
+    text-align: center;
+    margin: 32px;
+}
+
+@media screen and (min-width: 700px) {
+    ul {
+     text-align: right;
+    }
+
+    li {
+     display: inline-block;
+     border-bottom: 0px;
+     border-left: 1px solid black;
+    }
+
+    .game {
+    width: 33%;
+     display: inline-block;
+     vertical-align: top;
+    }
+
+}
