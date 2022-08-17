@@ -38,7 +38,7 @@ li:hover {
 }
 
 .imagebanner {
-    background-image: url("images/coolbanner.gif");
+    background-image: url("Images/coolbanner.gif");
     padding: 50px 0;
     background-size: cover;
     color: rgb(136, 74, 166);
